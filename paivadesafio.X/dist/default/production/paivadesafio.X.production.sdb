@@ -1,0 +1,133 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"18 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\botoes.c
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+"24
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+"34
+[v _k1 k1 `(v  1 e 1 0 ]
+"38
+[v _k2 k2 `(v  1 e 1 0 ]
+"42
+[v _k3 k3 `(v  1 e 1 0 ]
+"46
+[v _s1 s1 `(i  1 e 2 0 ]
+"50
+[v _s0 s0 `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+"15 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"18 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\segmentos.c
+[v _segmentos_init segmentos_init `(v  1 e 1 0 ]
+"26
+[v _segmentos segmentos `(v  1 e 1 0 ]
+"228 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S101 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"369
+[u S110 . 1 `S101 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES110  1 e 1 @8 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S80 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1619
+[u S89 . 1 `S80 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES89  1 e 1 @136 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"13 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\segmentos.c
+[v _vetor vetor `[16]uc  1 e 16 0 ]
+"15 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"22
+[v main@t t `i  1 a 2 8 ]
+"18
+[v main@cont cont `i  1 a 2 6 ]
+"19
+[v main@estado estado `uc  1 a 1 10 ]
+"93
+} 0
+"18 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\segmentos.c
+[v _segmentos_init segmentos_init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"26
+[v _segmentos segmentos `(v  1 e 1 0 ]
+{
+[v segmentos@c c `i  1 p 2 0 ]
+"32
+} 0
+"46 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\botoes.c
+[v _s1 s1 `(i  1 e 2 0 ]
+{
+"49
+} 0
+"50
+[v _s0 s0 `(i  1 e 2 0 ]
+{
+"53
+} 0
+"42
+[v _k3 k3 `(v  1 e 1 0 ]
+{
+[v k3@x x `i  1 p 2 0 ]
+"45
+} 0
+"38
+[v _k2 k2 `(v  1 e 1 0 ]
+{
+[v k2@x x `i  1 p 2 0 ]
+"41
+} 0
+"34
+[v _k1 k1 `(v  1 e 1 0 ]
+{
+[v k1@x x `i  1 p 2 0 ]
+"37
+} 0
+"12 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\delay.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@t t `ui  1 p 2 0 ]
+"19
+} 0
+"24 C:\Users\20185206\MPLABXProjects\paivadesafio\paivadesafio\paivadesafio.X\botoes.c
+[v _contatores_init contatores_init `(v  1 e 1 0 ]
+{
+"32
+} 0
+"18
+[v _botoes_init botoes_init `(v  1 e 1 0 ]
+{
+"22
+} 0
